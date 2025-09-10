@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer_icons">
           <FacebookOutlinedIcon />
           <InstagramIcon />
-          <TwitterIcon/>
+          <TwitterIcon />
           <YouTubeIcon />
         </div>
         <div className="footer_data">
