@@ -5,7 +5,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-// import { IoMenu } from "react-icons/io5";
+
 
 
 const Header = () => {
@@ -27,9 +27,6 @@ const Header = () => {
         </div>
         <div className="header_right">
           <ul>
-            {/* <li>
-              <IoMenu />
-            </li> */}
             <li>
               <SearchIcon />
             </li>
@@ -42,6 +39,7 @@ const Header = () => {
             <li>
               <ArrowDropDownIcon />
             </li>
+          
           </ul>
         </div>
       </div>
